@@ -1,59 +1,95 @@
-.neighborhood-guides{background-color: #efefef;
-border-bottom:1px solid #dbdbdb;}
-.neighborhood-guides h2 {color:#393c3d; font-size:100px; font-family: cursive;}
-.neighborhood-guides p { font-size:50px; margin-bottom:13px;} 
-
-
-
-
-
-
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
-.nav li {
-  display: inline;
+
+.nav-pills{
+  font-size: 1.8em;
+  background-color:black;
+  margin-bottom:15%;
+}
+h1{
+font-size:5.0em;
+padding:0px;
+margin-top:5px;
+color:white;
+}
+h2{
+  color:white;
+}
+.block{
+  background-color:black;
+  padding-top:10px;
+  opacity:.7;
+  width:50%;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:10px;
 }
 
-.jumbotron {
-  background-image:url('http://7-themes.com/data_images/out/76/7030767-3d-background-wallpaper.jpg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
+body{
+ font-family:lobster;
+ background-color: white;
+ color:black;
+ }
+.btn-default{
+ background-color:black;
+ border-color:black;
+ color:#337ab7;
+ font-size:2.0em;
+}
+.pageOne{
+background:url("https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=533d700028277f3d53e0e6d4ac3bcc1c");
+background-size: cover;
+height: 1024px;
+}
+.pageTwo{
+ background:url("https://images.unsplash.com/photo-1436891620584-47fd0e565afb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=9580e27795d8af74b7ea143e70a71636");
+ background-size:cover;
+ height: 800px;
+ padding-top:5%;
+}
+p{
+  font-size:2.5em;
+  color:white;
+}
+img{
+   padding:10px;
+  margin:10px;
 }
 
-.jumbotron .container {
-  position: relative;
-  top:100px;
+.pageThree{
+
+  background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz__xn2lnL6-6DSJ77tOhdrn30NQNNJ5_h6wyNrKjr373L68PiCg");
+ background-size:cover;
+ height: 800px;
+}
+.portfolioHeading{
+  margin-top:100px;
+  color:black;
+}
+.img-responsive{
+  display:block;
+   height: 200px;
+   width :100%;
 }
 
-.jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
+.pageFour{
+background:url("https://images.unsplash.com/photo-1436891620584-47fd0e565afb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=9580e27795d8af74b7ea143e70a71636");
+background-size:cover;
+height:800px;
 }
-
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
+.connectWithIbra{
+  margin-top:50px;
+  font-size:3.0em;
 }
-
-.learn-more {
-  background-color: #f7f7f7;
-}
-
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.learn-more a {
-  color: #00b0ff;
-}
+.banner-social-buttons{
+   display:block;
+   margin-bottom:20px;
+   padding:0px;
+ }
