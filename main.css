@@ -73,11 +73,22 @@ img{
   margin-top:100px;
   color:black;
 }
+.dropDown{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    opacity: inherit;
+}
 .img-responsive{
   display:block;
    height: 200px;
    width :100%;
 }
+/*
+.btn btn-info{
+    text-align: center;
+}
+*/
 
 li{
  margin-bottom: 20px;
@@ -85,7 +96,7 @@ li{
 .pageFour{
 background:url("https://images.unsplash.com/photo-1436891620584-47fd0e565afb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=9580e27795d8af74b7ea143e70a71636");
 background-size:cover;
-height:500px;
+height:100%;
 }
 .connectWithIbra{
   margin-top:50px;
